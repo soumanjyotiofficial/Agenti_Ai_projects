@@ -115,6 +115,7 @@ Delivery: 48 hours
 result = get_price(summary)
 print(result)
 
+# ✅ Example Output (Hardcoded)1
 
 {
   "base_rate": 1250.0,
