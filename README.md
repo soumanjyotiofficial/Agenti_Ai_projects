@@ -114,3 +114,15 @@ Delivery: 48 hours
 
 result = get_price(summary)
 print(result)
+
+
+{
+  "base_rate": 1250.0,
+  "fragile_fee": 500.0,
+  "speedpost_fee": 312.5,
+  "gross_total": 2062.5,
+  "bulk_discount": 515.625,
+  "net_total": 1546.875,
+  "GST": 278.4375,
+  "total_amount": 1825.3125
+}
