@@ -76,3 +76,35 @@ SQLite Database
 ├── Agentic_ai.db
 ├── README.md
 ```
+
+
+
+
+
+---
+
+## 🧾 Data Schema
+
+### Extracted JSON Format
+
+```json
+{
+  "vendor_name": "string",
+  "invoice_number": "string",
+  "invoice_date": "YYYY-MM-DD",
+  "due_date": "YYYY-MM-DD",
+  "line_items": [
+    {
+      "description": "string",
+      "quantity": number,
+      "unit_price": number,
+      "total": number
+    }
+  ],
+  "subtotal": number,
+  "tax_amount": number,
+  "total_amount": number,
+  "currency": "string",
+  "payment_status": "paid/unpaid/partial"
+}
+```
