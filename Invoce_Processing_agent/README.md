@@ -57,3 +57,22 @@ SQLite Database
 
 
 
+---
+
+## ⚙️ Tech Stack
+
+- Python  
+- OpenAI / NVIDIA LLM API  
+- Pandas  
+- SQLite  
+- JSON Processing  
+
+---
+
+## 📂 Project Structure
+``` text
+├── main.py
+├── config.py
+├── Agentic_ai.db
+├── README.md
+```
