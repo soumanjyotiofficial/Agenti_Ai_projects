@@ -144,3 +144,34 @@ structured_data[0].to_sql("inventory_table", con, if_exists="append")
 if len(structured_data) > 1:
     structured_data[1].to_sql("invoice", con, if_exists="append")
 ```
+
+
+## 📊 Business Applications
+
+- Inventory Management  
+- Accounts Payable Automation  
+- Financial Data Pipelines  
+- AI-driven ERP Systems  
+- Invoice Intelligence Systems  
+
+---
+
+## 🚧 Future Improvements
+
+- PDF Parsing (OCR + Table Extraction)  
+- RAG-based Validation  
+- Interactive Dashboard (Streamlit / React)  
+- API Deployment using FastAPI  
+- Vendor Analytics & Insights  
+- Fraud Detection Mechanism  
+
+---
+
+## 🧑‍💻 Why This Project Matters
+
+- Demonstrates real-world AI + Finance integration  
+- Showcases strong data pipeline design  
+- Highlights practical LLM usage in automation  
+- Highly relevant for FinTech, Quant, and Data roles  
+
+
