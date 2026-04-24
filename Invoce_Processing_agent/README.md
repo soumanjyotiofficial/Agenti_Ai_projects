@@ -108,3 +108,18 @@ SQLite Database
   "payment_status": "paid/unpaid/partial"
 }
 ```
+
+
+## 🔄 Workflow Explanation
+
+### 1. Invoice Extraction
+- Uses LLM to parse raw invoice text  
+- Returns structured JSON  
+
+### 2. Data Processing
+- Converts line items into **inventory DataFrame**  
+- Converts invoice metadata into **payables DataFrame** (if unpaid)  
+
+### 3. Storage
+- Inventory → `inventory_table`  
+- Payables → `invoice` table  
