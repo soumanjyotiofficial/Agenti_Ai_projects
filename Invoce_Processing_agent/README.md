@@ -123,3 +123,24 @@ SQLite Database
 ### 3. Storage
 - Inventory → `inventory_table`  
 - Payables → `invoice` table  
+
+
+
+
+
+## 🧪 Sample Usage
+
+```python
+# Step 1: Extract structured data from invoice
+result = extract_invoice_data(sample_invoice)
+
+# Step 2: Process response into DataFrames
+structured_data = process_response(result)
+
+# Step 3: Store inventory data into SQL
+structured_data[0].to_sql("inventory_table", con, if_exists="append")
+
+# Step 4: Store payable data (only if unpaid exists)
+if len(structured_data) > 1:
+    structured_data[1].to_sql("invoice", con, if_exists="append")
+```
