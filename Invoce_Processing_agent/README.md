@@ -53,5 +53,7 @@ Inventory Table + Payables Table
         ↓
 SQLite Database
 
+```
+
 
 
